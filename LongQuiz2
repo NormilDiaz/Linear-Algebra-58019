@@ -12,11 +12,3 @@
  A(3, 2) = 0;
  disp(A);
 
- syms x1 x2 x3
- Eq1 = 5 * x1 + 4 * x2 + x3 == 3.4;
- Eq2 = 10 * x1 + 9 * x2 + 4 * x3 == 8.8;
- Eq3 = 10 * x1 + 13 * x2 + 15 * x3 == 19.2;
- sol = solve([Eq1, Eq2, Eq3], [x1, x2, x3]);
- x1_ans = sol.x1;
- x2_ans = sol.x2;
- x3_ans = sol.x3;
