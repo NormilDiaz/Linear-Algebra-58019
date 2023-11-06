@@ -1,0 +1,42 @@
+% Question 5
+
+ c = [true true; false false];
+
+% Question 7
+
+syms x y z
+Eq1 = 3 * x - 5 * y + 4 * z == 5;
+Eq2 = 5 * x + 2 * y + z == 0;
+Eq3 = 2 * x + 3 * y - 2 * z == 3;
+sol = solve([Eq1, Eq2, Eq3], [x, y, z]);
+x1_ans = sol.x;
+x2_ans = sol.y;
+x3_ans = sol.z;
+
+% Question 9
+
+A = [1 1 0 0]
+
+B = [1;2;3;4]
+
+C = A*B
+
+% Question 12
+
+A = [-5 -1 -4
+      4  0 -3
+      2 -2  6];
+
+det(A)
+
+% Question 14
+
+A = [0,1; 1,0]; 
+B = 2; 
+D = A+B
+
+% Question 15
+
+A = [1 2; 3 4];
+
+E = A^2
