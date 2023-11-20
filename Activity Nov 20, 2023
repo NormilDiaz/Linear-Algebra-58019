@@ -1,0 +1,12 @@
+syms papple porange;
+
+eq1 = 20*papple + 10*porange == 350;
+eq2 = 17*papple + 22*porange == 500;
+
+sol = solve([eq1, eq2], [papple, porange]);
+
+papple_result = sol.papple;
+porange_result = sol.porange;
+
+papple_result;
+porange_result;
